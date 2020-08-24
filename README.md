@@ -14,6 +14,7 @@ docker pull nsidhartha/getmypois:v2.1.0
 docker run -p 8085:8080 nsidhartha/getmypois:v2.1.0
 
 *Verifying the Service Response with a Curl* 
+
 curl --location --request GET 'localhost:8080/api/v1/poi-place-management/place/pois?location=London'
 
 
