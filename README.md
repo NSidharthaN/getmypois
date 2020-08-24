@@ -4,13 +4,16 @@ Get the POIs (restaurant,parking-station,ev-chargin-station) given a cityname.
 
 
 *Running Locally with dockerFile* :
+
 docker build -f DockerFile -t nsidhartha/getmypois:mytag .
+
 docker run -p 8085:8080 nsidhartha/getmypois:mytag
 
 
 *Pulling from Docker-Hub and Running* :
 
 docker pull nsidhartha/getmypois:v2.1.0
+
 docker run -p 8085:8080 nsidhartha/getmypois:v2.1.0
 
 *Verifying the Service Response with a Curl* 
