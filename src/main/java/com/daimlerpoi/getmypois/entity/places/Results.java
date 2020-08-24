@@ -1,6 +1,5 @@
 package com.daimlerpoi.getmypois.entity.places;
 
-
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,7 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Results {
-    List<ItemV2> items;
-    @JsonProperty("next")
-    String nextHrefUri;
+  List<ItemV2> items;
+
+  @JsonProperty("next")
+  String nextHrefUri;
 }

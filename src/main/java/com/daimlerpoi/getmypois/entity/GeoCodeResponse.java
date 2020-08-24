@@ -1,6 +1,5 @@
 package com.daimlerpoi.getmypois.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,5 +14,5 @@ import java.util.List;
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GeoCodeResponse {
-    private List<Item> items;
+  private List<Item> items;
 }

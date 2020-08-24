@@ -10,6 +10,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Category {
-    String id;
-    String title;
+  String id;
+  String title;
 }

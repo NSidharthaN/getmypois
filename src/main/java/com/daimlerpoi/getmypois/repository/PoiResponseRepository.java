@@ -1,7 +1,7 @@
-//package com.daimlerpoi.getmypois.repository;
+// package com.daimlerpoi.getmypois.repository;
 //
 //
-//import org.springframework.data.jpa.repository.JpaRepository;
+// import org.springframework.data.jpa.repository.JpaRepository;
 //
-//public class PoiResponseRepository extends JpaRepository {
-//}
+// public class PoiResponseRepository extends JpaRepository {
+// }

@@ -10,6 +10,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OpeningHours {
-    String text;
-    Boolean isOpen;
+  String text;
+  Boolean isOpen;
 }

@@ -8,8 +8,7 @@ import org.springframework.cache.annotation.EnableCaching;
 @SpringBootApplication
 public class GetmypoisApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GetmypoisApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(GetmypoisApplication.class, args);
+  }
 }
