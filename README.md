@@ -1,6 +1,6 @@
 Get the POIs (restaurant,parking-station,ev-chargin-station) given a cityname.
 
-#Steps to run the project :
+*Steps to run the project* :
 
 
 *Running Locally with dockerFile* :
